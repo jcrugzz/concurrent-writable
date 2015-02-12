@@ -1,0 +1,34 @@
+{
+  "name": "concurrent-writable",
+  "version": "1.0.1",
+  "description": "Add some concurrency to a writable stream",
+  "keywords": [],
+  "author": {
+    "name": "Segment.io team@segment.io"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/segmentio/concurrent-writable.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "main": "index",
+  "bugs": {
+    "url": "https://github.com/segmentio/concurrent-writable/issues"
+  },
+  "homepage": "https://github.com/segmentio/concurrent-writable",
+  "maintainers": [
+    {
+      "name": "calvinfo",
+      "email": "calvin@calv.info"
+    }
+  ]
+}
