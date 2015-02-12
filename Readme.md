@@ -1,6 +1,8 @@
 
 # concurrent-writable
 
+[![build status](https://secure.travis-ci.org/jcrugzz/concurrent-writable.svg)](http://travis-ci.org/jcrugzz/concurrent-writable)
+
   Add some concurrency to a writable stream
 
 ## Usage
