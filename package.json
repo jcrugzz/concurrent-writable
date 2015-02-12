@@ -2,7 +2,7 @@
   "name": "concurrent-writable",
   "version": "1.0.2",
   "description": "Add some concurrency to a writable stream",
-  "keywords": [],
+  "keywords": ["concurrent", "concurrency", "writable", "stream", "writable-stream", "parallel"],
   "author": {
     "name": "Segment.io team@segment.io"
   },
@@ -11,21 +11,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/segmentio/concurrent-writable.git"
+    "url": "git@github.com:jcrugzz/concurrent-writable.git"
   },
   "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   },
-  "main": "index",
+  "main": "index.js",
   "bugs": {
-    "url": "https://github.com/segmentio/concurrent-writable/issues"
+    "url": "https://github.com/jcrugzz/concurrent-writable/issues"
   },
-  "homepage": "https://github.com/segmentio/concurrent-writable",
+  "homepage": "https://github.com/jcrugzz/concurrent-writable",
   "maintainers": [
     {
       "name": "calvinfo",
       "email": "calvin@calv.info"
+    },
+    {
+      "name": "Jarrett Cruger",
+      "email": "jcrugzz@gmail.com"
     }
   ]
 }
