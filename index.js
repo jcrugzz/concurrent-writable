@@ -11,7 +11,6 @@ module.exports = function(stream, concurrency){
   var _write = stream._write.bind(stream);
   var on = stream.on.bind(stream);
   var inFlight = 0;
-  var self = this;
   var done = false;
   var emitter = new Emitter();
   var listeners = stream.listeners('finish');
@@ -22,7 +21,7 @@ module.exports = function(stream, concurrency){
     var deferred = inFlight >= concurrency;
     _write(message, encoding, function (err){
       inFlight--;
-      if (err) self.emit('error', err);
+      if (err) stream.emit('error', err);
       if (deferred) callback();
       if (done && !inFlight) emitter.emit('finish');
     });
