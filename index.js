@@ -21,7 +21,7 @@ module.exports = function(stream, concurrency){
     var deferred = inFlight >= concurrency;
     _write(message, encoding, function (err){
       inFlight--;
-      if (err) stream.emit('error', err);
+      if (err) return stream.emit('error', err);
       if (deferred) callback();
       if (done && !inFlight) emitter.emit('finish');
     });
