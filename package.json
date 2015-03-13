@@ -1,6 +1,6 @@
 {
   "name": "concurrent-writable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Add some concurrency to a writable stream",
   "keywords": ["concurrent", "concurrency", "writable", "stream", "writable-stream", "parallel"],
   "author": {
